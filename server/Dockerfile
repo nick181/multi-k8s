@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:alpiness
 WORKDIR '/app'
 COPY ./package.json ./
 RUN npm install
